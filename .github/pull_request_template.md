@@ -1,4 +1,4 @@
-# Developer
+# Contributor
 - [ ] Changes (to java code) have been covered by unite test.
 - [ ] All unit tests are passed.
 - [ ] The code follows the [company Software Development Standard](https://confluence.kingland.com/display/KPALP/Software+Development+Standard).
@@ -8,9 +8,7 @@
 - [ ] When implement code changes, try to minimize the scope of change and avoid changing the behavior of other components. 
 - [ ] If the change is to apply to a small part of a method, try to extract that specific part as a separate method first. 
   - [ ] Consider adding inline code commenting related to the changes to prevent the code from un-intended update and the defect re-introduced later.
-- [ ] Update JIRA ticket with a brief Change summary including the following:
-  - [ ] What has been changed;
-  - [ ] Acceptance criteria to verify the change;
+- [ ] A brief **Change Summary** has been added with the description of  **what has been changed** and **acceptance criteria to verify the change**;
 - [ ] PR name should follows the format of: `[Feature/Defect]/{Task number} {Task summary} `
 
 # Reviewer
@@ -18,10 +16,4 @@
 - [ ] All java code changes must be covered with unit test, at least a positive scenario and a negative one
 - [ ] Ensure code and comments are meaningful and have good readability.
 - [ ] Ensure Common coding issues are not introduced.
-- [ ] Ensure the change is also reviewed by tech lead before merge if:
-- [ ] Changes to shared components
-- [ ] Defect is introduced by another defect
-# Tech lead
-- [ ] Need to review when
-  - [ ] Changes to shared components
-  - [ ] Defect is introduced by another defect
+- [ ] Ensure the change is also reviewed by tech lead before merge if **Changes to shared components** or **Defect is introduced by another defect**
