@@ -1,3 +1,4 @@
+-- just a demo app
 local textToPrint  = 'love2d studio\nCode, debug and test great games \nAll from you mobile devices'
 local printedText  = ""
 local bg = require('background')
