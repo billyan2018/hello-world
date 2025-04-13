@@ -1,0 +1,2 @@
+local myLowerCasedVariable = "Hello"
+camel
